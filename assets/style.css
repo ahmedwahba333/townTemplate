@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+
+
+.navright {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.hoverlink:hover {
+    color: #4169DB !important;
+
+}
+
+.introduction {
+    color: #4169DB !important;
+}
+
+.navbar {
+    font-family: 'Sriracha';
+}
+
+
+/* background  */
+
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('imgs/thetown (1).jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* article */
+
+
+.article1 {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+    color: white;
+}
+
+.article1:hover {
+    cursor: context-menu;
+}
+
+.parag1 {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.ahmed1 {
+    color: #4169DB;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+.article2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 35px;
+}
+
+/* image card */
+
+
+.imgtown1 {
+    width: 70vh;
+    height: 45vh;
+    margin-right: 30px;
+}
+
+
+/* right content */
+
+
+.introduction2 {
+    color: #4169DB;
+}
+
+.simple {
+    font-weight: bold;
+}
+
+.yoursite {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.yoursite:hover {
+    color: black;
+}
+
+aside:hover {
+    cursor: context-menu;
+}
+
+.parag2 {
+    font-size: 14px;
+    color: #777995;
+}
+
+.btn-primary {
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.workspart {
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(#E2977F, #5C648C);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+.workspart h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.workspart h3:hover {
+    cursor: context-menu;
+}
+
+.workspart a {
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.workspart p {
+    font-size: 14px;
+    color: #CDC1C1;
+    display: flex;
+    justify-content: center;
+}
+
+.workspart p:hover {
+    cursor: context-menu;
+}
+
+.ourwork2 {
+    margin-top: 50px;
+}
+
+.ourwork2 h1 {
+    color: #4169E1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ourwork2 p {
+    color: #666670;
+    display: flex;
+    justify-content: center;
+}
+
+.ourwork2:hover {
+    cursor: context-menu;
+}
+
+.cardpart {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.card {
+    margin-left: 30px;
+    border: transparent;
+}
+
+.card-img-top:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.5s;
+
+}
+
+.hello {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    background-image: url(imgs/thetown\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-right: 150px;
+    padding-left: 200px;
+
+}
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+.hello h1 {
+    margin-top: 30px;
+}
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.parag3 {
+    color: white;
+    margin-top: 30px;
+    line-height: 35px;
+    font-size: small;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    color: #4169E1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: rgb(85, 7, 7);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.copyright span {
+    color: #4169E1;
+    font-weight: bold;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
